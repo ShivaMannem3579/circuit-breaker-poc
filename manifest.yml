@@ -1,0 +1,7 @@
+---
+applications:
+- name: circuit-breaker-poc
+  path: target/circuit-breaker-poc.jar
+  services:
+      - spring-config-refresh-bus
+      - circuit-breaker-consumer-dashboard
